@@ -109,6 +109,26 @@ ul li:last-child {
     margin-top: 20px;
     font-size: 24px;
     text-align: center;
-    color: #fff;
+    color: #ffff;
+}
 
+.boton_siguiente {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.boton_siguiente button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton_siguiente button:hover {
+    background-color: #0056b3;
 }
